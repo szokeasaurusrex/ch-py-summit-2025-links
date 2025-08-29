@@ -19,6 +19,8 @@ layout: default
 <p class="subtitle">{{ page.subtitle }}</p>
 {% endif %}
 
+## Talk info
+
 <div class="event-meta">
   <span class="event">{{ page.event }}</span> · 
   <span class="date">{{ page.date }}</span> · 
@@ -32,19 +34,15 @@ layout: default
 {% for link in site.data.links %}
 <a href="{{ link.url }}" class="link-card">
   <header>
-    <h3>{{ link.title }}</h3>
+    <h3 markdown="1">{{ link.title }}</h3>
   </header>
   {% if link.description %}
-  <p class="card-description">{{ link.description }}</p>
+  <p class="card-description" markdown="1">{{ link.description }}</p>
   {% endif %}
 </a>
 {% endfor %}
 </div>
 
-## About the talk
-
-TBD short abstract (2–4 sentences).
-
-## About the speaker
+## About me
 
 Hello 👋 My name is Daniel Szoke, and I am a software engineer at [Sentry](https://sentry.io/welcome), where I maintain the [Sentry CLI](https://github.com/getsentry/sentry-cli) and the [Python SDK](https://github.com/getsentry/sentry-python).

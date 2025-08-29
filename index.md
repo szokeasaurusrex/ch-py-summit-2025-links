@@ -8,8 +8,8 @@ speaker_name: "Daniel Szoke"
 headshot_src: assets/images/headshot.jpg
 description: "Links and resources for TBD talk at PyCon GR."
 layout: default
-# url: "https://YOUR_USERNAME.github.io"
-# baseurl: "/presentation-links"
+url: "https://szokeasaurusrex.github.io"
+baseurl: "/pycon-gr-25-links"
 ---
 
 # {{ page.title }}

@@ -1,19 +1,19 @@
-- title: "_The Rust Programming Language_"
+- title: "🦀 _The Rust Programming Language_"
   url: "https://doc.rust-lang.org/book/"
   description: "The official book for Rust, and my recommended starting point. Aka _The Rust Book_."
 
-- title: "My GitHub Profile"
+- title: "🐙 GitHub Profile"
   url: "https://github.com/szokeasaurusrex"
   description: "Check out what I've been working on!"
 
-- title: "My LinkedIn Profile"
+- title: "🧑🏼‍💼 LinkedIn Profile"
   url: "https://www.linkedin.com/in/dlsz"
   description: "Let's connect!"
 
-- title: "Talk Slides (Keynote)"
+- title: "📊 Talk Slides (Keynote)"
   url: "https://example.com/slides.key"
   description: "The slides I used for the talk, in Apple Keynote format. Includes speaker notes."
 
-- title: "Talk Slides (PDF)"
+- title: "📄 Talk Slides (PDF)"
   url: "https://example.com/slides.pdf"
   description: "The slides I used for the talk, as a PDF."

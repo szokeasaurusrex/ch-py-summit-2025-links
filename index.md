@@ -1,6 +1,6 @@
 ---
-title: "Why you should learn Rust"
-subtitle: "As a Python developer"
+title: "Why you should learn Rust 🦀"
+subtitle: "As a Python developer 🐍"
 event: "PyCon GR"
 date: "2025-08-30"
 location: "Athens 🇬🇷"
@@ -19,7 +19,7 @@ baseurl: "/pycon-gr-25-links"
 <p class="subtitle">{{ page.subtitle }}</p>
 {% endif %}
 
-## Talk info
+## Talk info 🗣️
 
 <div class="event-meta">
   <span class="event">{{ page.event }}</span> · 
@@ -28,7 +28,7 @@ baseurl: "/pycon-gr-25-links"
 </div>
 <div class="speaker-meta">Speaker: <strong>{{ page.speaker_name }}</strong></div>
 
-## Quick links
+## Quick links 🔗
 
 <div class="card-grid">
 {% for link in site.data.links %}
@@ -43,6 +43,6 @@ baseurl: "/pycon-gr-25-links"
 {% endfor %}
 </div>
 
-## About me
+## About me 🙋🏼
 
 Hello 👋 My name is Daniel Szoke, and I am a software engineer at [Sentry](https://sentry.io/welcome), where I maintain the [Sentry CLI](https://github.com/getsentry/sentry-cli) and the [Python SDK](https://github.com/getsentry/sentry-python).

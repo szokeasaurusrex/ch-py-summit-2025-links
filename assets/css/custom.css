@@ -1,15 +1,75 @@
-body {
-  line-height: 1.6;
-}
-.container {
-  max-width: 44rem;
-  margin: 0 auto;
-  padding: 1.25rem;
-}
-.links {
+/* Modern card grid layout */
+.card-grid {
   display: grid;
-  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
 }
-.desc {
-  color: #666;
+
+.link-card {
+  display: block;
+  background: var(--pico-card-background-color);
+  border: 1px solid var(--pico-border-color);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-card:hover,
+.link-card:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-color: var(--pico-primary);
+  outline: none;
+}
+
+.link-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  color: var(--pico-primary);
+}
+
+
+
+.card-description {
+  margin: 0;
+  color: var(--pico-muted-color);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Typography improvements */
+.subtitle {
+  font-size: 1.3rem;
+  color: var(--pico-muted-color);
+  margin: 0.5rem 0 2rem 0;
+  font-weight: 300;
+}
+
+.event-meta,
+.speaker-meta {
+  color: var(--pico-muted-color);
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+/* Legacy styles compatibility */
+.meta {
+  color: var(--pico-muted-color);
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .link-card {
+    padding: 1.25rem;
+  }
 }

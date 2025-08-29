@@ -1,15 +1,15 @@
-- title: "Slides"
+- title: "Talk Slides"
   url: "https://example.com/slides.pdf"
-  description: "Slide deck (PDF/URL)."
+  description: "The slides I used for the talk, in Apple Keynote format."
 
-- title: "Rust Book"
-  url: "https://example.com/rust-book"
-  description: "Comprehensive guide to Rust."
+- title: "<em>The Rust Programming Language</em>"
+  url: "https://doc.rust-lang.org/book/"
+  description: "The official book for Rust, and my recommended starting point. Aka <em>The Rust Book</em>."
 
-- title: "My GitHub"
+- title: "My GitHub Profile"
   url: "https://github.com/YOUR_USERNAME"
   description: "Code and projects."
 
-- title: "My LinkedIn"
+- title: "My LinkedIn Profile"
   url: "https://www.linkedin.com/in/YOUR_HANDLE"
   description: "Background and contact."

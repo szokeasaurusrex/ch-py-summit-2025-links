@@ -8,7 +8,19 @@
   <title>{{ page.title | default: site.title | escape }}</title>
   <meta name="description" content="{{ page.description | default: site.description | strip_html | strip_newlines | truncate: 160 | escape }}">
   
-  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  <!-- Modern CSS Framework -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/custom.css' | relative_url }}"
+  />
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 </head>
 <body>
   <main class="container">

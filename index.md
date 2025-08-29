@@ -16,19 +16,28 @@ layout: default
 
 {% if page.subtitle %}
 
-<div class="meta">{{ page.subtitle }}</div>
+<p class="subtitle">{{ page.subtitle }}</p>
 {% endif %}
 
-<div class="meta">
-  {{ page.event }} · <span>{{ page.date }}</span> · <span>{{ page.location }}</span>
-  </div>
-<div class="meta">Speaker: <strong>{{ page.speaker_name }}</strong></div>
+<div class="event-meta">
+  <span class="event">{{ page.event }}</span> · 
+  <span class="date">{{ page.date }}</span> · 
+  <span class="location">{{ page.location }}</span>
+</div>
+<div class="speaker-meta">Speaker: <strong>{{ page.speaker_name }}</strong></div>
 
 ## Quick links
 
-<div id="links" class="links" markdown="1">
+<div class="card-grid">
 {% for link in site.data.links %}
-- [{{ link.title }}]({{ link.url }}){% if link.description %}<br /><span class="desc">{{ link.description }}</span>{% endif %}
+<a href="{{ link.url }}" class="link-card">
+  <header>
+    <h3>{{ link.title }}</h3>
+  </header>
+  {% if link.description %}
+  <p class="card-description">{{ link.description }}</p>
+  {% endif %}
+</a>
 {% endfor %}
 </div>
 

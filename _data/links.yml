@@ -1,0 +1,15 @@
+- title: "Slides"
+  url: "https://example.com/slides.pdf"
+  description: "Slide deck (PDF/URL)."
+
+- title: "Rust Book"
+  url: "https://example.com/rust-book"
+  description: "Comprehensive guide to Rust."
+
+- title: "My GitHub"
+  url: "https://github.com/YOUR_USERNAME"
+  description: "Code and projects."
+
+- title: "My LinkedIn"
+  url: "https://www.linkedin.com/in/YOUR_HANDLE"
+  description: "Background and contact."

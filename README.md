@@ -1,1 +1,1 @@
-# Static Page with links for my presentation at PyCon GR
+# Static Page with links for my presentation at Swiss Python Summit

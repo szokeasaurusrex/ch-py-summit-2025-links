@@ -73,3 +73,7 @@
     padding: 1.25rem;
   }
 }
+
+ul li, ol li {
+  list-style-type: none;
+}

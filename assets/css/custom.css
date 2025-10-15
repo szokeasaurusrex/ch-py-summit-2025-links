@@ -82,7 +82,8 @@
     gap: 1rem;
   }
 
-  .link-card {
+  .link-card,
+  .job-card {
     padding: 1.25rem;
   }
 }

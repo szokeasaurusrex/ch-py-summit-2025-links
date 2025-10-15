@@ -9,7 +9,7 @@ headshot_src: assets/images/headshot.jpg
 description: "Links and resources for my talk at Swiss Python Summit."
 layout: default
 url: "https://szokeasaurusrex.github.io"
-baseurl: "/pycon-gr-25-links"
+baseurl: "/ch-py-summit-2025-links"
 ---
 
 # {{ page.title }}
